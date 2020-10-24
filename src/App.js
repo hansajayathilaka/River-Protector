@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import firebase from "./firebase";
 import './App.css';
+import logo from './logo.jpeg';
+import sclLogo from './scl_logo.jpeg';
 
 class App extends Component {
     constructor(props) {
@@ -96,8 +98,13 @@ class App extends Component {
             else
                 return login;
         };
-
-        return (data());
+        return (
+            <div>
+                <img src={sclLogo} id='sclLogo' alt="CCK Logo"/>
+                <img src={logo} id='logo' alt="Group Logo"/>
+                { data() }
+            </div>
+        );
     }
 }
 

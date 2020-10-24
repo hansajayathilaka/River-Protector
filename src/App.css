@@ -54,3 +54,21 @@ body{
     cursor: pointer;
     margin: 12px 0;
 }
+
+#logo {
+    position: absolute;
+    height: 150px;
+    width: 175px;
+    right: 30px;
+    top: 30px;
+    border-right: 10px;
+}
+
+#sclLogo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+}
